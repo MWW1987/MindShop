@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\_0_Framework\\_0_Framework.csproj": {}
+    "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\_0_Framework\\_0_Framework.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\_0_Framework\\_0_Framework.csproj": {
+    "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\_0_Framework\\_0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\_0_Framework\\_0_Framework.csproj",
+        "projectUniqueName": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\_0_Framework\\_0_Framework.csproj",
         "projectName": "_0_Framework",
-        "projectPath": "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\_0_Framework\\_0_Framework.csproj",
+        "projectPath": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\_0_Framework\\_0_Framework.csproj",
         "packagesPath": "C:\\Users\\Mojtaba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\_0_Framework\\obj\\",
+        "outputPath": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\_0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Mojtaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -30,6 +31,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -41,6 +43,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -56,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.2.20479.15\\RuntimeIdentifierGraph.json"
         }
       }
     }

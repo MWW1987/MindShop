@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PuZcNCxW8+3tAQlcqaMcbFdsWlLTqWLE9uzb9FaIOtvmD3jIKREBubfE5pqbakLqAszaW7gSEqRYfBjHsreJ7A==",
+  "dgSpecHash": "hV+AHY+ULmQ+ju9uBP3jvpwNozb2yjl2jt7hIznZnnrKFXp3c57umk4SxGSv/sUFP9hfznTYNBOCGVa62EIkcA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\ShopManagement\\SM.Domain\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Domain\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
