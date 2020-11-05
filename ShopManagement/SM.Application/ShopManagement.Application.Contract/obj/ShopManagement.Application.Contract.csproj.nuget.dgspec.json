@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj": {}
+    "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj": {
+    "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj",
+        "projectUniqueName": "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj",
         "projectName": "ShopManagement.Application.Contract",
-        "projectPath": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj",
+        "projectPath": "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj",
         "packagesPath": "C:\\Users\\Mojtaba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application.Contract\\obj\\",
+        "outputPath": "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Mojtaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -31,10 +30,9 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Domain\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Domain\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
+              "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\_0_Framework\\_0_Framework.csproj": {
+                "projectPath": "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\_0_Framework\\_0_Framework.csproj"
               }
             }
           }
@@ -47,7 +45,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -63,85 +60,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.2.20479.15\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Domain\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+    "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\_0_Framework\\_0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Domain\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
-        "projectName": "ShopManagement.Domain",
-        "projectPath": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Domain\\ShopManagement.Domain\\ShopManagement.Domain.csproj",
-        "packagesPath": "C:\\Users\\Mojtaba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Domain\\ShopManagement.Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\Mojtaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "netcoreapp3.1"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
-            "projectReferences": {
-              "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\_0_Framework\\_0_Framework.csproj": {
-                "projectPath": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\_0_Framework\\_0_Framework.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.2.20479.15\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\_0_Framework\\_0_Framework.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\_0_Framework\\_0_Framework.csproj",
+        "projectUniqueName": "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\_0_Framework\\_0_Framework.csproj",
         "projectName": "_0_Framework",
-        "projectPath": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\_0_Framework\\_0_Framework.csproj",
+        "projectPath": "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\_0_Framework\\_0_Framework.csproj",
         "packagesPath": "C:\\Users\\Mojtaba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\_0_Framework\\obj\\",
+        "outputPath": "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\_0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Mojtaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -157,7 +90,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -169,7 +101,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -185,7 +116,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.2.20479.15\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

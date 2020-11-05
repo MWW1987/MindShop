@@ -6,7 +6,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "ShopManagement.Domain": "1.0.0"
+          "_0_Framework": "1.0.0"
         },
         "compile": {
           "bin/placeholder/ShopManagement.Application.Contract.dll": {}
@@ -19,6 +19,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
+          "ShopManagement.Application.Contract": "1.0.0",
           "_0_Framework": "1.0.0"
         },
         "compile": {
@@ -59,26 +60,25 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "ShopManagement.Application.Contract >= 1.0.0"
+      "ShopManagement.Application.Contract >= 1.0.0",
+      "ShopManagement.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
     "C:\\Users\\Mojtaba\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application\\ShopManagement.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application\\ShopManagement.Application.csproj",
       "projectName": "ShopManagement.Application",
-      "projectPath": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application\\ShopManagement.Application.csproj",
+      "projectPath": "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application\\ShopManagement.Application.csproj",
       "packagesPath": "C:\\Users\\Mojtaba\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application\\obj\\",
+      "outputPath": "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\Mojtaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,10 +94,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj": {
-              "projectPath": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj"
+            "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj": {
+              "projectPath": "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj"
+            },
+            "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\ShopManagement\\SM.Domain\\ShopManagement.Domain\\ShopManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\Mojtaba\\Source\\Repos\\MindShop\\ShopManagement\\SM.Domain\\ShopManagement.Domain\\ShopManagement.Domain.csproj"
             }
           }
         }
@@ -110,7 +112,6 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -126,7 +127,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.2.20479.15\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

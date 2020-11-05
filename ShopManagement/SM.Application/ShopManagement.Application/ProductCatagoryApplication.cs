@@ -40,14 +40,14 @@ namespace ShopManagement.Application
             return operation.Succedded("ویرایش اطلاعات با موفقیت انجام شد");
         }
 
-        public ProductCatagory GetDetails(int id)
+        public EditProductCatagory GetDetails(int id)
         {
-            throw new NotImplementedException();
+            return repo.GetDetails(id);
         }
 
         public List<ProductCatagoryViewModel> Search(ProductCatagorySearchModel searchModel)
         {
-            throw new NotImplementedException();
+            return repo.Search(searchModel);
         }
     }
 }
