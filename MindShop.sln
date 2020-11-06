@@ -9,13 +9,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Domain", "SM.Domain", "{
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Domain", "ShopManagement\SM.Domain\ShopManagement.Domain\ShopManagement.Domain.csproj", "{A14DDA92-0BCA-45A0-AAE3-A694BB9BF44A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_0_Framework", "_0_Framework\_0_Framework.csproj", "{0A3F5AC5-06D8-41EF-BF30-C168278A233F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_0_Framework", "_0_Framework\_0_Framework.csproj", "{0A3F5AC5-06D8-41EF-BF30-C168278A233F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Application", "SM.Application", "{669DED3C-BC68-4E0D-B132-E496BC47F17B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Application.Contract", "ShopManagement\SM.Application\ShopManagement.Application.Contract\ShopManagement.Application.Contract.csproj", "{36068A4A-E27D-416F-8BDB-E2B966BBB88F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Application.Contract", "ShopManagement\SM.Application\ShopManagement.Application.Contract\ShopManagement.Application.Contract.csproj", "{36068A4A-E27D-416F-8BDB-E2B966BBB88F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Application", "ShopManagement\SM.Application\ShopManagement.Application\ShopManagement.Application.csproj", "{4FAAE509-C2DE-4E2F-A683-58D1026B9AB0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopManagement.Application", "ShopManagement\SM.Application\ShopManagement.Application\ShopManagement.Application.csproj", "{4FAAE509-C2DE-4E2F-A683-58D1026B9AB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SM.Infrustructure", "SM.Infrustructure", "{488E1C99-7006-4EE2-899C-03FFF23A5064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopManagement.Infrastructure.EFCore", "ShopManagement\SM.Infrustructure\ShopManagement.Infrastructure.EFCore\ShopManagement.Infrastructure.EFCore.csproj", "{F02A64E7-AE27-4B73-AEA5-7EA85467FD3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,10 @@ Global
 		{4FAAE509-C2DE-4E2F-A683-58D1026B9AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FAAE509-C2DE-4E2F-A683-58D1026B9AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FAAE509-C2DE-4E2F-A683-58D1026B9AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F02A64E7-AE27-4B73-AEA5-7EA85467FD3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F02A64E7-AE27-4B73-AEA5-7EA85467FD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F02A64E7-AE27-4B73-AEA5-7EA85467FD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F02A64E7-AE27-4B73-AEA5-7EA85467FD3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +57,8 @@ Global
 		{669DED3C-BC68-4E0D-B132-E496BC47F17B} = {CB565208-3074-4D1F-9996-E53BDDDCEDCD}
 		{36068A4A-E27D-416F-8BDB-E2B966BBB88F} = {669DED3C-BC68-4E0D-B132-E496BC47F17B}
 		{4FAAE509-C2DE-4E2F-A683-58D1026B9AB0} = {669DED3C-BC68-4E0D-B132-E496BC47F17B}
+		{488E1C99-7006-4EE2-899C-03FFF23A5064} = {CB565208-3074-4D1F-9996-E53BDDDCEDCD}
+		{F02A64E7-AE27-4B73-AEA5-7EA85467FD3C} = {488E1C99-7006-4EE2-899C-03FFF23A5064}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {387F05DA-FE78-4DB9-A981-AB25C9258C58}

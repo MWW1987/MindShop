@@ -1,7 +1,6 @@
 ﻿using _0_Framework.Application;
 using ShopManagement.Application.Contract.ProductCatagory;
 using ShopManagement.Domain.ProductCatagoryAgg;
-using System;
 using System.Collections.Generic;
 
 namespace ShopManagement.Application
@@ -14,12 +13,15 @@ namespace ShopManagement.Application
         {
             this.repo = repo;
         }
+
         public OperationResult Create(CreateProductCatagory command)
         {
             var operation = new OperationResult();
             if (repo.Exist(c => c.Name == command.Name))
                 return operation.Failed("این نام تکراری است. لطفا نام دیگری انتخاب کنید");
-            var productCatagory = new ProductCatagory(command.Name, command.Description, command.Picture, command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription, command.Slug);
+            var slug = command.Slug.Slugify();
+            var productCatagory = new ProductCatagory(command.Name, command.Description, command.Picture,
+                command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription, slug);
             repo.Create(productCatagory);
             repo.SaveChanges();
             return operation.Succedded();
@@ -35,7 +37,9 @@ namespace ShopManagement.Application
             if (repo.Exist(x => x.Name == command.Name && x.Id != command.Id))
                 return operation.Failed("این نام تکراری است. لطفا نام دیگری انتخاب کنید");
 
-            productCatagory.Edit(command.Name, command.Description, command.Picture, command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription, command.Slug);
+            var slug = command.Slug.Slugify();
+            productCatagory.Edit(command.Name, command.Description, command.Picture, command.PictureAlt,
+                command.PictureTitle, command.Keywords, command.MetaDescription, slug);
             repo.SaveChanges();
             return operation.Succedded("ویرایش اطلاعات با موفقیت انجام شد");
         }
