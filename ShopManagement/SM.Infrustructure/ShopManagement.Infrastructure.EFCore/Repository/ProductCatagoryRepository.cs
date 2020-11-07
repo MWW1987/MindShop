@@ -1,46 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+using _0_Framework.Infrastructure;
 using ShopManagement.Application.Contract.ProductCatagory;
 using ShopManagement.Domain.ProductCatagoryAgg;
 
 namespace ShopManagement.Infrastructure.EFCore.Repository
 {
-    public class ProductCatagoryRepository: IProductCatagoryRepository
+    public class ProductCatagoryRepository: RepositoryBase<int, ProductCatagory>, IProductCatagoryRepository
     {
         private readonly ShopContext _context;
 
-        public ProductCatagoryRepository(ShopContext context)
+        public ProductCatagoryRepository(ShopContext context) :base(context)
         {
             _context = context;
         }
-        public void Create(ProductCatagory entity)
-        {
-            _context.Add(entity);
-        }
+        
 
-        public ProductCatagory Get(int id)
-        {
-            return _context.ProductCatagories.Find(id);
-        }
-
-        public List<ProductCatagory> GetAll()
-        {
-            return _context.ProductCatagories.ToList();
-        }
-
-        public bool Exist(Expression<Func<ProductCatagory, bool>> expression)
-        {
-            return _context.ProductCatagories.Any(expression);
-        }
-
-        public void SaveChanges()
-        {
-            _context.SaveChanges();
-        }
+        
 
         public EditProductCatagory GetDetails(int id)
         {

@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "VWEUYWwghAH6U5JVoJdmSpLSz67C4oxv5bmCPXkmRJ96XprKIzIip6l9s+xhM/Su1sKDh6Llt9v9sGdAIDXQqg==",
+  "dgSpecHash": "dFsTchXVtWWMB5vVXL/yfposlQ1eBY9UrJGTz737/1/T3rYJEwPKmwu4t2aScuRq6sk7ay/JUac1NpFEM2YZJw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Mojtaba\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.0-rc.2.20475.6\\microsoft.entityframeworkcore.5.0.0-rc.2.20475.6.nupkg.sha512",
+    "C:\\Users\\Mojtaba\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0-rc.2.20475.6\\microsoft.entityframeworkcore.abstractions.5.0.0-rc.2.20475.6.nupkg.sha512",
+    "C:\\Users\\Mojtaba\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.0-rc.2.20475.6\\microsoft.entityframeworkcore.analyzers.5.0.0-rc.2.20475.6.nupkg.sha512",
+    "C:\\Users\\Mojtaba\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0-rc.2.20475.5\\microsoft.extensions.caching.abstractions.5.0.0-rc.2.20475.5.nupkg.sha512",
+    "C:\\Users\\Mojtaba\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0-rc.2.20475.5\\microsoft.extensions.caching.memory.5.0.0-rc.2.20475.5.nupkg.sha512",
+    "C:\\Users\\Mojtaba\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0-rc.2.20475.5\\microsoft.extensions.dependencyinjection.5.0.0-rc.2.20475.5.nupkg.sha512",
+    "C:\\Users\\Mojtaba\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0-rc.2.20475.5\\microsoft.extensions.dependencyinjection.abstractions.5.0.0-rc.2.20475.5.nupkg.sha512",
+    "C:\\Users\\Mojtaba\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0-rc.2.20475.5\\microsoft.extensions.logging.5.0.0-rc.2.20475.5.nupkg.sha512",
+    "C:\\Users\\Mojtaba\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0-rc.2.20475.5\\microsoft.extensions.logging.abstractions.5.0.0-rc.2.20475.5.nupkg.sha512",
+    "C:\\Users\\Mojtaba\\.nuget\\packages\\microsoft.extensions.options\\5.0.0-rc.2.20475.5\\microsoft.extensions.options.5.0.0-rc.2.20475.5.nupkg.sha512",
+    "C:\\Users\\Mojtaba\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0-rc.2.20475.5\\microsoft.extensions.primitives.5.0.0-rc.2.20475.5.nupkg.sha512",
+    "C:\\Users\\Mojtaba\\.nuget\\packages\\system.collections.immutable\\5.0.0-rc.2.20475.5\\system.collections.immutable.5.0.0-rc.2.20475.5.nupkg.sha512",
+    "C:\\Users\\Mojtaba\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0-rc.2.20475.5\\system.componentmodel.annotations.5.0.0-rc.2.20475.5.nupkg.sha512",
+    "C:\\Users\\Mojtaba\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0-rc.2.20475.5\\system.diagnostics.diagnosticsource.5.0.0-rc.2.20475.5.nupkg.sha512"
+  ],
   "logs": []
 }

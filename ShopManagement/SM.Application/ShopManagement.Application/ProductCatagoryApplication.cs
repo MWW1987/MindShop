@@ -23,7 +23,7 @@ namespace ShopManagement.Application
             var productCatagory = new ProductCatagory(command.Name, command.Description, command.Picture,
                 command.PictureAlt, command.PictureTitle, command.Keywords, command.MetaDescription, slug);
             repo.Create(productCatagory);
-            repo.SaveChanges();
+            repo.SaveChange();
             return operation.Succedded();
         }
 
@@ -40,7 +40,7 @@ namespace ShopManagement.Application
             var slug = command.Slug.Slugify();
             productCatagory.Edit(command.Name, command.Description, command.Picture, command.PictureAlt,
                 command.PictureTitle, command.Keywords, command.MetaDescription, slug);
-            repo.SaveChanges();
+            repo.SaveChange();
             return operation.Succedded("ویرایش اطلاعات با موفقیت انجام شد");
         }
 
