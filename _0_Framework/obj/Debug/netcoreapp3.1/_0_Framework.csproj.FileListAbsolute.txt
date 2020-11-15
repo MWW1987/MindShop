@@ -1,9 +1,0 @@
-C:\Users\Mojtaba\Source\Repos\MindShop\_0_Framework\bin\Debug\netcoreapp3.1\_0_Framework.deps.json
-C:\Users\Mojtaba\Source\Repos\MindShop\_0_Framework\bin\Debug\netcoreapp3.1\_0_Framework.dll
-C:\Users\Mojtaba\Source\Repos\MindShop\_0_Framework\bin\Debug\netcoreapp3.1\_0_Framework.pdb
-C:\Users\Mojtaba\Source\Repos\MindShop\_0_Framework\obj\Debug\netcoreapp3.1\_0_Framework.csprojAssemblyReference.cache
-C:\Users\Mojtaba\Source\Repos\MindShop\_0_Framework\obj\Debug\netcoreapp3.1\_0_Framework.AssemblyInfoInputs.cache
-C:\Users\Mojtaba\Source\Repos\MindShop\_0_Framework\obj\Debug\netcoreapp3.1\_0_Framework.AssemblyInfo.cs
-C:\Users\Mojtaba\Source\Repos\MindShop\_0_Framework\obj\Debug\netcoreapp3.1\_0_Framework.csproj.CoreCompileInputs.cache
-C:\Users\Mojtaba\Source\Repos\MindShop\_0_Framework\obj\Debug\netcoreapp3.1\_0_Framework.dll
-C:\Users\Mojtaba\Source\Repos\MindShop\_0_Framework\obj\Debug\netcoreapp3.1\_0_Framework.pdb

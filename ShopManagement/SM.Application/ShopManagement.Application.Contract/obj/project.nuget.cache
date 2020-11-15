@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "QhkJ7y7OIuBdig00axkXzNyRj4rsJyNrPCWjL0X1pPVRbzgupirskKSWtjKG1inwcmO9USuMjb6pO85XryQY3Q==",
+  "dgSpecHash": "oaYGBgD2qw9c1EVj8Da/MXR8qiz9dRt6fzgcwbPYk5Mzshs9Hz6HHJTZFB5tJrajDzxOcBJ2IKp5JvlUZfyFAg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mojtaba\\source\\repos\\MindShop\\ShopManagement\\SM.Application\\ShopManagement.Application.Contract\\ShopManagement.Application.Contract.csproj",
   "expectedPackageFiles": [
@@ -17,8 +17,7 @@
     "C:\\Users\\Mojtaba\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\Mojtaba\\.nuget\\packages\\system.collections.immutable\\5.0.0\\system.collections.immutable.5.0.0.nupkg.sha512",
     "C:\\Users\\Mojtaba\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
-    "C:\\Users\\Mojtaba\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
-    "C:\\Users\\Mojtaba\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.8\\microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+    "C:\\Users\\Mojtaba\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

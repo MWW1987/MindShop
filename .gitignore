@@ -5,7 +5,21 @@
 # .NET Core build folders
 bin/
 obj/
-
+.vs/
+_0_Framework/bin
+_0_Framework/obj
+ApplicationPresentation/bin
+ApplicationPresentation/obj
+SM.Application/ShopManagement.Application/obj
+SM.Application/ShopManagement.Application/bin
+SM.Application/ShopManagement.Application.Contract/obj
+SM.Application/ShopManagement.Application.Contract/bin
+SM.Domain/ShopManagement.Domain/bin
+SM.Domain/ShopManagement.Domain/obj
+SM.Infrustructure/ShopManagement.Configuration/bin
+SM.Infrustructure/ShopManagement.Configuration/obj
+SM.Infrustructure/ShopManagement.Infrastructure.EFCore/bin
+SM.Infrustructure/ShopManagement.Infrastructure.EFCore/obj
 # Common node modules locations
 /node_modules
 /wwwroot/node_modules
