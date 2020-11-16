@@ -1,16 +1,16 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using _0_Framework.Infrastructure;
-using ShopManagement.Application.Contract.ProductCatagory;
-using ShopManagement.Domain.ProductCatagoryAgg;
+using ShopManagement.Application.Contract.ProductCategory;
+using ShopManagement.Domain.ProductCategoryAgg;
 
 namespace ShopManagement.Infrastructure.EFCore.Repository
 {
-    public class ProductCatagoryRepository: RepositoryBase<int, ProductCatagory>, IProductCatagoryRepository
+    public class ProductCategoryRepository: RepositoryBase<int, ProductCategory>, IProductCategoryRepository
     {
         private readonly ShopContext _context;
 
-        public ProductCatagoryRepository(ShopContext context) :base(context)
+        public ProductCategoryRepository(ShopContext context) :base(context)
         {
             _context = context;
         }
@@ -18,9 +18,9 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
 
         
 
-        public EditProductCatagory GetDetails(int id)
+        public EditProductCategory GetDetails(int id)
         {
-            return _context.ProductCatagories.Select(x => new EditProductCatagory
+            return _context.ProductCategories.Select(x => new EditProductCategory
             {
                 Id = x.Id,
                 Description = x.Description,
@@ -34,9 +34,9 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
             }).FirstOrDefault(x => x.Id == id);
         }
 
-        public List<ProductCatagoryViewModel> Search(ProductCatagorySearchModel searchModel)
+        public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)
         {
-            var query = _context.ProductCatagories.Select(x => new ProductCatagoryViewModel
+            var query = _context.ProductCategories.Select(x => new ProductCategoryViewModel
             {
                 Id = x.Id,
                 Name = x.Name,

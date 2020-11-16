@@ -7,28 +7,34 @@ namespace ApplicationPresentation.Areas.Admin.Pages.Shop.ProductCatagories
 {
     public class IndexModel : PageModel
     {
-        public List<ProductCatagoryViewModel> ProductCatagories;
-        public ProductCatagorySearchModel SearchModel;
-        private readonly IProductCatagoryApplication productCatagoryApplication;
+        public List<ProductCategoryViewModel> ProductCatagories;
+        public ProductCategorySearchModel SearchModel;
+        private readonly IProductCategoryApplication productCatagoryApplication;
 
-        public IndexModel(IProductCatagoryApplication productCatagoryApplication)
+        public IndexModel(IProductCategoryApplication productCatagoryApplication)
         {
             this.productCatagoryApplication = productCatagoryApplication;
         }
-        public void OnGet(ProductCatagorySearchModel searchModel)
+        public void OnGet(ProductCategorySearchModel searchModel)
         {
             ProductCatagories = productCatagoryApplication.Search(searchModel);
         }
 
         public IActionResult OnGetCreate()
         {
-            return Partial("./Create", new CreateProductCatagory());
+            return Partial("./Create", new CreateProductCategory());
         }
 
-        public JsonResult OnPostCreate(CreateProductCatagory command)
+        public JsonResult OnPostCreate(CreateProductCategory command)
         {
             var result = productCatagoryApplication.Create(command);
             return new JsonResult(result);
+        }
+
+        public IActionResult OnGetEdit(int id)
+        {
+            var productCatagory = productCatagoryApplication.GetDetails(id);
+            return Partial("Edit", productCatagory);
         }
     }
 }

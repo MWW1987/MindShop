@@ -1,6 +1,6 @@
-﻿namespace ShopManagement.Application.Contract.ProductCatagory
+﻿namespace ShopManagement.Application.Contract.ProductCategory
 {
-    public class CreateProductCatagory
+    public class CreateProductCategory
     {
         public string Name { get; set; }
         public string Description { get; set; }

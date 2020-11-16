@@ -1,6 +1,6 @@
-﻿namespace ShopManagement.Application.Contract.ProductCatagory
+﻿namespace ShopManagement.Application.Contract.ProductCategory
 {
-    public class ProductCatagoryViewModel
+    public class ProductCategoryViewModel
     {
         public int Id { get; set; }
         public string Name { get; set; }

@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ShopManagement.Application;
-using ShopManagement.Application.Contract.ProductCatagory;
-using ShopManagement.Domain.ProductCatagoryAgg;
+using ShopManagement.Application.Contract.ProductCategory;
+using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Infrastructure.EFCore;
 using ShopManagement.Infrastructure.EFCore.Repository;
 
@@ -12,8 +12,8 @@ namespace ShopManagement.Configuration
     {
         public static void Configure(IServiceCollection service, string connectionString)
         {
-            service.AddTransient<IProductCatagoryApplication, ProductCatagoryApplication>();
-            service.AddTransient<IProductCatagoryRepository, ProductCatagoryRepository>();
+            service.AddTransient<IProductCategoryApplication, ProductCategoryApplication>();
+            service.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
             service.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
         }
     }

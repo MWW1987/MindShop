@@ -1,10 +1,10 @@
 ﻿using _0_Framework.Domain;
 
-namespace ShopManagement.Domain.ProductCatagoryAgg
+namespace ShopManagement.Domain.ProductCategoryAgg
 {
-    public class ProductCatagory: EntityBase
+    public class ProductCategory: EntityBase
     {
-        public ProductCatagory(string name, string description, string picture, string pictureAlt, string pictureTitle, string keywords, string metaDescription, string slug)
+        public ProductCategory(string name, string description, string picture, string pictureAlt, string pictureTitle, string keywords, string metaDescription, string slug)
         {
             Name = name;
             Description = description;
