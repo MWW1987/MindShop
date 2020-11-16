@@ -1,7 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using ShopManagement.Application.Contract.ProductCatagory;
@@ -21,6 +18,17 @@ namespace ApplicationPresentation.Areas.Admin.Pages.Shop.ProductCatagories
         public void OnGet(ProductCatagorySearchModel searchModel)
         {
             ProductCatagories = productCatagoryApplication.Search(searchModel);
+        }
+
+        public IActionResult OnGetCreate()
+        {
+            return Partial("./Create", new CreateProductCatagory());
+        }
+
+        public JsonResult OnPostCreate(CreateProductCatagory command)
+        {
+            var result = productCatagoryApplication.Create(command);
+            return new JsonResult(result);
         }
     }
 }
