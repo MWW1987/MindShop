@@ -1,23 +1,23 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using ShopManagement.Application.Contract.ProductCatagory;
+using ShopManagement.Application.Contract.ProductCategory;
 
-namespace ApplicationPresentation.Areas.Admin.Pages.Shop.ProductCatagories
+namespace ApplicationPresentation.Areas.Admin.Pages.Shop.ProductCategories
 {
     public class IndexModel : PageModel
     {
         public List<ProductCategoryViewModel> ProductCatagories;
         public ProductCategorySearchModel SearchModel;
-        private readonly IProductCategoryApplication productCatagoryApplication;
+        private readonly IProductCategoryApplication productCategoryApplication;
 
-        public IndexModel(IProductCategoryApplication productCatagoryApplication)
+        public IndexModel(IProductCategoryApplication productCategoryApplication)
         {
-            this.productCatagoryApplication = productCatagoryApplication;
+            this.productCategoryApplication = productCategoryApplication;
         }
         public void OnGet(ProductCategorySearchModel searchModel)
         {
-            ProductCatagories = productCatagoryApplication.Search(searchModel);
+            ProductCatagories = productCategoryApplication.Search(searchModel);
         }
 
         public IActionResult OnGetCreate()
@@ -27,14 +27,24 @@ namespace ApplicationPresentation.Areas.Admin.Pages.Shop.ProductCatagories
 
         public JsonResult OnPostCreate(CreateProductCategory command)
         {
-            var result = productCatagoryApplication.Create(command);
+            var result = productCategoryApplication.Create(command);
             return new JsonResult(result);
         }
 
         public IActionResult OnGetEdit(int id)
         {
-            var productCatagory = productCatagoryApplication.GetDetails(id);
+            var productCatagory = productCategoryApplication.GetDetails(id);
             return Partial("Edit", productCatagory);
+        }
+
+        public JsonResult OnPostEdit(EditProductCategory command)
+        {
+            if (ModelState.IsValid)
+            {
+            }
+
+            var result = productCategoryApplication.Edit(command);
+            return new JsonResult(result);
         }
     }
 }
