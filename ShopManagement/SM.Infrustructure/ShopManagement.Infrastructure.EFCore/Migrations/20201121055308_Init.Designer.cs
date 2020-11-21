@@ -10,8 +10,8 @@ using ShopManagement.Infrastructure.EFCore;
 namespace ShopManagement.Infrastructure.EFCore.Migrations
 {
     [DbContext(typeof(ShopContext))]
-    [Migration("20201115194620_init")]
-    partial class init
+    [Migration("20201121055308_Init")]
+    partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,7 +21,7 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
 
-            modelBuilder.Entity("ShopManagement.Domain.ProductCatagoryAgg.ProductCatagory", b =>
+            modelBuilder.Entity("ShopManagement.Domain.ProductCategoryAgg.ProductCategory", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -69,7 +69,7 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ProductCatagories");
+                    b.ToTable("ProductCategories");
                 });
 #pragma warning restore 612, 618
         }

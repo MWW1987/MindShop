@@ -19,7 +19,7 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "5.0.0");
 
-            modelBuilder.Entity("ShopManagement.Domain.ProductCatagoryAgg.ProductCatagory", b =>
+            modelBuilder.Entity("ShopManagement.Domain.ProductCategoryAgg.ProductCategory", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -67,7 +67,7 @@ namespace ShopManagement.Infrastructure.EFCore.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ProductCatagories");
+                    b.ToTable("ProductCategories");
                 });
 #pragma warning restore 612, 618
         }

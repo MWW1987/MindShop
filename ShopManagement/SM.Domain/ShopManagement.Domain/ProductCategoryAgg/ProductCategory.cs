@@ -1,9 +1,15 @@
 ﻿using _0_Framework.Domain;
+using ShopManagement.Domain.ProductAgg;
+using System.Collections.Generic;
 
 namespace ShopManagement.Domain.ProductCategoryAgg
 {
     public class ProductCategory: EntityBase
     {
+        public ProductCategory()
+        {
+            Products = new List<Product>();
+        }
         public ProductCategory(string name, string description, string picture, string pictureAlt, string pictureTitle, string keywords, string metaDescription, string slug)
         {
             Name = name;
@@ -24,6 +30,7 @@ namespace ShopManagement.Domain.ProductCategoryAgg
         public string Keywords { get; private set; }
         public string MetaDescription { get; private set; }
         public string Slug { get; private set; }
+        public List<Product> Products { get; private set; }
 
         public void Edit(string name, string description, string picture, string pictureAlt, string pictureTitle, string keywords, string metaDescription, string slug)
         {
