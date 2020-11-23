@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\1_MindShopQuery\1_MindShopQuery.csproj" />
     <ProjectReference Include="..\ShopManagement\SM.Infrustructure\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />
   </ItemGroup>
 
