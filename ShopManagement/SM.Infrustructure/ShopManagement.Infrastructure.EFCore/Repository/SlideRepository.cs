@@ -1,5 +1,5 @@
 ﻿using _0_Framework.Infrastructure;
-using ShopManagement.Application.Contract.Slide;
+using ShopManagement.Application.Contracts.Slide;
 using ShopManagement.Domain.SlideAgg;
 using System;
 using System.Collections.Generic;
@@ -27,6 +27,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 Text = x.Text,
+                Link = x.Link,
                 Title = x.Title
             }).FirstOrDefault(x => x.Id == id);
         }

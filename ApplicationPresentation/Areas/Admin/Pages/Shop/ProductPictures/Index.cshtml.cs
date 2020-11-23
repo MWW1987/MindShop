@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using ShopManagement.Application.Contract.Product;
-using ShopManagement.Application.Contract.ProductPicture;
+using ShopManagement.Application.Contracts.Product;
+using ShopManagement.Application.Contracts.ProductPicture;
 using System.Collections.Generic;
 
 namespace ApplicationPresentation.Areas.Admin.Pages.Shop.ProductPictures

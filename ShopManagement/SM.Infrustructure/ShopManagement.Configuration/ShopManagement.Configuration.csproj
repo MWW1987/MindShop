@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\SM.Application\ShopManagement.Application.Contract\ShopManagement.Application.Contract.csproj" />
+    <ProjectReference Include="..\..\..\1_MindShopQuery\1_MindShopQuery.csproj" />
     <ProjectReference Include="..\..\SM.Application\ShopManagement.Application\ShopManagement.Application.csproj" />
     <ProjectReference Include="..\ShopManagement.Infrastructure.EFCore\ShopManagement.Infrastructure.EFCore.csproj" />
   </ItemGroup>

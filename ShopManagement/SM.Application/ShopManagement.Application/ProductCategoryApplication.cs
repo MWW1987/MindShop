@@ -1,5 +1,5 @@
 ﻿using _0_Framework.Application;
-using ShopManagement.Application.Contract.ProductCategory;
+using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
 using System.Collections.Generic;
 

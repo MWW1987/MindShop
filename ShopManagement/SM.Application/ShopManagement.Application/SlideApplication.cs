@@ -1,5 +1,5 @@
 ﻿using _0_Framework.Application;
-using ShopManagement.Application.Contract.Slide;
+using ShopManagement.Application.Contracts.Slide;
 using ShopManagement.Domain.SlideAgg;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
@@ -19,7 +19,7 @@ namespace ShopManagement.Application
         {
             var operation = new OperationResult();
             var slide = new Slide(command.Picture, command.PictureAlt, command.PictureTitle,
-                command.Heading, command.Title, command.Text, command.BtnText);
+                command.Heading, command.Title, command.Text, command.Link, command.BtnText);
 
             _slideRepository.Create(slide);
             _slideRepository.SaveChange();
@@ -34,7 +34,7 @@ namespace ShopManagement.Application
                 return operation.Failed(ApplicationMessages.RecordNotFound);
 
             slide.Edit(command.Picture, command.PictureAlt, command.PictureTitle,
-                command.Heading, command.Title, command.Text, command.BtnText);
+                command.Heading, command.Title, command.Text, command.Link, command.BtnText);
             _slideRepository.SaveChange();
             return operation.Succedded();
         }

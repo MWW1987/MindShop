@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using ShopManagement.Application.Contract.Slide;
+using ShopManagement.Application.Contracts.Slide;
 using System.Collections.Generic;
 
 namespace ApplicationPresentation.Areas.Admin.Pages.Shop.Slides

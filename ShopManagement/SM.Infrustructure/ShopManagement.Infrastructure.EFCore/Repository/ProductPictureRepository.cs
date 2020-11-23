@@ -1,6 +1,6 @@
 ﻿using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
-using ShopManagement.Application.Contract.ProductPicture;
+using ShopManagement.Application.Contracts.ProductPicture;
 using ShopManagement.Domain.ProductPictureAgg;
 using System.Collections.Generic;
 using System.Linq;

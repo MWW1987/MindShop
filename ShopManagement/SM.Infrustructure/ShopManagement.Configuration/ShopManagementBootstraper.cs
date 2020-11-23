@@ -1,10 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using _1_MindShopQuery.Contracts.Slide;
+using _1_MindShopQuery.Query;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using ShopManagement.Application;
-using ShopManagement.Application.Contract.Product;
-using ShopManagement.Application.Contract.ProductCategory;
-using ShopManagement.Application.Contract.ProductPicture;
-using ShopManagement.Application.Contract.Slide;
+using ShopManagement.Application.Contracts.Product;
+using ShopManagement.Application.Contracts.ProductCategory;
+using ShopManagement.Application.Contracts.ProductPicture;
+using ShopManagement.Application.Contracts.Slide;
 using ShopManagement.Domain.ProductAgg;
 using ShopManagement.Domain.ProductCategoryAgg;
 using ShopManagement.Domain.ProductPictureAgg;
@@ -26,6 +28,7 @@ namespace ShopManagement.Configuration
             service.AddTransient<IProductPictureRepository, ProductPictureRepository>();
             service.AddTransient<ISlideApplication, SlideApplication>();
             service.AddTransient<ISlideRepository, SlideRepository>();
+            service.AddTransient<ISlideQuery, SlideQuery>();
             service.AddDbContext<ShopContext>(x => x.UseSqlServer(connectionString));
         }
     }

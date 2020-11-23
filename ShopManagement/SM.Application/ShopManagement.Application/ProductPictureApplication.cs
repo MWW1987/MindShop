@@ -1,5 +1,5 @@
 ﻿using _0_Framework.Application;
-using ShopManagement.Application.Contract.ProductPicture;
+using ShopManagement.Application.Contracts.ProductPicture;
 using ShopManagement.Domain.ProductPictureAgg;
 using System.Collections.Generic;
 using System.Runtime.InteropServices.WindowsRuntime;

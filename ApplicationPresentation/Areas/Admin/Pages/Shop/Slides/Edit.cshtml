@@ -1,4 +1,4 @@
-﻿@model ShopManagement.Application.Contract.Slide.EditSlide
+﻿@model ShopManagement.Application.Contracts.Slide.EditSlide
 }
 
 <div class="modal-header">
@@ -66,6 +66,15 @@
                     <label asp-for="BtnText" class="control-label">متن دکمه</label>
                     <input type="text" class="form-control" asp-for="BtnText">
                     <span asp-validation-for="BtnText" class="error"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label asp-for="Link" class="control-label">لینک</label>
+                    <input type="text" class="form-control" asp-for="Link">
+                    <span asp-validation-for="Link" class="error"></span>
                 </div>
             </div>
         </div>

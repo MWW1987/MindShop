@@ -1,4 +1,4 @@
-﻿using ShopManagement.Application.Contract.ProductCategory;
+﻿using ShopManagement.Application.Contracts.ProductCategory;
 using System;
 using System.Collections.Generic;
 using System.Linq.Expressions;
