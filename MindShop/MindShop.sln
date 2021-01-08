@@ -3,9 +3,81 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MindShopManagement", "MindShopManagement", "{6A9AAD3E-77F8-4BAD-B851-2CFC13B6A230}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MS.Domain", "MS.Domain", "{6A79660A-6FED-4C5C-9619-FC8ED780483F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindShop.Domain", "MindShopManagement\MS.Domain\MindShop.Domain\MindShop.Domain.csproj", "{2CF78FFD-78EA-426E-A42D-BB46D87FF659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "0_Framework", "0_Framework\0_Framework.csproj", "{425AB797-2AEF-4E07-9623-FEFEB99C27CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MS.Application", "MS.Application", "{CA7E8E83-5788-48F9-BEBA-C8094936F280}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindShop.Application.Contracts", "MindShopManagement\MS.Application\MindShop.Application.Contracts\MindShop.Application.Contracts.csproj", "{57D914DA-42D3-4609-AA5F-080DE04C8A36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindShop.Application", "MindShopManagement\MS.Application\MindShop.Application\MindShop.Application.csproj", "{B02CF6A3-7EE3-4DDD-93BA-497615EC7761}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MS.Infrastructure", "MS.Infrastructure", "{691CC07C-04F0-4F34-8F12-EEC32AF0D79F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindShop.Infrastructure.EFCore", "MindShopManagement\MS.Infrastructure\MindShop.Infrastructure.EFCore\MindShop.Infrastructure.EFCore.csproj", "{A922BF8E-D36C-4557-82FA-BBB424227A17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindShop.Configuration", "MindShopManagement\MS.Infrastructure\MindShop.Configuration\MindShop.Configuration.csproj", "{FA0DD9EB-41DA-478A-B407-31B3C63FCF82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MindShopPresentation", "MindShopPresentation\MindShopPresentation.csproj", "{8718F1CA-36EE-4C1B-9028-536A745A5A39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_MindShopQuery", "01_MindShopQuery\01_MindShopQuery.csproj", "{218CA438-632A-4A3C-859A-01BBFB1F5EA8}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CF78FFD-78EA-426E-A42D-BB46D87FF659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF78FFD-78EA-426E-A42D-BB46D87FF659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF78FFD-78EA-426E-A42D-BB46D87FF659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF78FFD-78EA-426E-A42D-BB46D87FF659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{425AB797-2AEF-4E07-9623-FEFEB99C27CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{425AB797-2AEF-4E07-9623-FEFEB99C27CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{425AB797-2AEF-4E07-9623-FEFEB99C27CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{425AB797-2AEF-4E07-9623-FEFEB99C27CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57D914DA-42D3-4609-AA5F-080DE04C8A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D914DA-42D3-4609-AA5F-080DE04C8A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D914DA-42D3-4609-AA5F-080DE04C8A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D914DA-42D3-4609-AA5F-080DE04C8A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B02CF6A3-7EE3-4DDD-93BA-497615EC7761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B02CF6A3-7EE3-4DDD-93BA-497615EC7761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B02CF6A3-7EE3-4DDD-93BA-497615EC7761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B02CF6A3-7EE3-4DDD-93BA-497615EC7761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A922BF8E-D36C-4557-82FA-BBB424227A17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A922BF8E-D36C-4557-82FA-BBB424227A17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A922BF8E-D36C-4557-82FA-BBB424227A17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A922BF8E-D36C-4557-82FA-BBB424227A17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA0DD9EB-41DA-478A-B407-31B3C63FCF82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA0DD9EB-41DA-478A-B407-31B3C63FCF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA0DD9EB-41DA-478A-B407-31B3C63FCF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA0DD9EB-41DA-478A-B407-31B3C63FCF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8718F1CA-36EE-4C1B-9028-536A745A5A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8718F1CA-36EE-4C1B-9028-536A745A5A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8718F1CA-36EE-4C1B-9028-536A745A5A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8718F1CA-36EE-4C1B-9028-536A745A5A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{218CA438-632A-4A3C-859A-01BBFB1F5EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{218CA438-632A-4A3C-859A-01BBFB1F5EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{218CA438-632A-4A3C-859A-01BBFB1F5EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{218CA438-632A-4A3C-859A-01BBFB1F5EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A79660A-6FED-4C5C-9619-FC8ED780483F} = {6A9AAD3E-77F8-4BAD-B851-2CFC13B6A230}
+		{2CF78FFD-78EA-426E-A42D-BB46D87FF659} = {6A79660A-6FED-4C5C-9619-FC8ED780483F}
+		{CA7E8E83-5788-48F9-BEBA-C8094936F280} = {6A9AAD3E-77F8-4BAD-B851-2CFC13B6A230}
+		{57D914DA-42D3-4609-AA5F-080DE04C8A36} = {CA7E8E83-5788-48F9-BEBA-C8094936F280}
+		{B02CF6A3-7EE3-4DDD-93BA-497615EC7761} = {CA7E8E83-5788-48F9-BEBA-C8094936F280}
+		{691CC07C-04F0-4F34-8F12-EEC32AF0D79F} = {6A9AAD3E-77F8-4BAD-B851-2CFC13B6A230}
+		{A922BF8E-D36C-4557-82FA-BBB424227A17} = {691CC07C-04F0-4F34-8F12-EEC32AF0D79F}
+		{FA0DD9EB-41DA-478A-B407-31B3C63FCF82} = {691CC07C-04F0-4F34-8F12-EEC32AF0D79F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D9D9DBC6-AF43-4060-A1A8-13D0774913A8}
